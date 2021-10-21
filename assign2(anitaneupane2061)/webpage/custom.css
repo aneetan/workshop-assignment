@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.wrap {
+  background-image: url(backimage.jpeg);
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: brown;
+}
+.logo {
+  width: 200px;
+  height: 100%;
+  padding: auto;
+  position: relative;
+}
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0px 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 6px 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: 0.4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  background: red;
+  border-radius: 2px;
+}
+
+.wrap .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  user-select: none;
+}
+.center h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  width: 900px;
+  text-align: center;
+}
+.center h2 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  width: 885px;
+  margin-top: 10px;
+  text-align: center;
+}
+.center .buttons {
+  margin: 35px 280px;
+  align-items: center;
+}
+.buttons button {
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffb3b3;
+  background: red;
+  border: 1px solid darkorchid;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+.buttons .btn {
+  margin-left: 25px;
+}
+.buttons button:hover {
+  background: darkorchid;
+}
+.aboutus {
+  margin-top: 600px;
+  margin-left: 40px;
+}
+.aboutus h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+  color: #342bb6;
+}
+.aboutus p {
+  color: rgb(18, 86, 163);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+.image {
+  float: right;
+  width: 500px;
+  margin-top: -150px;
+  height: 200px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.card {
+  background: rgb(240, 230, 230);
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 18px;
+}
+.card:hover {
+  cursor: pointer;
+  background: rgb(226, 184, 184);
+  transform: scale(1.05);
+}
+.card-image {
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: contain;
+  border-radius: 18px 18px 0 0;
+}
+
+.card-1 {
+  background-image: url(graphic.jpg);
+}
+
+.card-2 {
+  background-image: url(uiux.jpg);
+}
+.card-3 {
+  background-image: url(download.png);
+}
+.card h1 {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  text-decoration: underline;
+  color: #973838;
+  text-align: center;
+}
+p {
+  color: brown;
+  text-align: justify;
+}
+.card a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(91, 91, 190);
+}
+.card a:hover {
+  text-decoration: underline;
+}
+.foot {
+  margin-left: 30px;
+}
+.foot a {
+  background: rgb(52, 88, 206);
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.foot a:hover {
+  text-decoration: underline;
+  color: black;
+}

@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(bg.jpg);
+  height: 100vh;
+  overflow: hidden;
+}
+.contain {
+  width: 781px;
+  height: 370px;
+  background-color: #36393f;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  padding: 28px;
+}
+.form {
+  float: right;
+  margin-top: 0px;
+  background: white;
+  width: 300px;
+  margin-right: 28px;
+  padding: 16px;
+}
+.header {
+  margin-top: -20px;
+  margin-left: 10px;
+}
+.header h1 {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  padding: auto;
+  width: 800px;
+}
+.header h2 {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  width: 400px;
+  padding: 0;
+  color: #99aab5;
+  margin-top: -10px;
+  margin-right: 500px;
+  text-decoration: none;
+}
+.text {
+  position: relative;
+  margin: 30px 0;
+  background: none;
+  width: 450px;
+}
+.text input {
+  width: 400px;
+  padding: 0 20px;
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid rgba(41, 37, 37, 0.959);
+  background: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.text label {
+  font-size: 13px;
+  color: #99aab5;
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+}
+.pass {
+  font-size: 13px;
+  margin-top: -45px;
+}
+.pass a {
+  color: #0098ff;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.pass a:hover {
+  text-decoration: underline;
+}
+.login {
+  margin-top: 15px;
+  background: #5865f2;
+  padding: 15px;
+  width: 440px;
+  border-radius: 4px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  border: 1px solid #404eed;
+}
+.login:hover {
+  background: #404eed;
+}
+.register {
+  margin-top: 12px;
+  font-size: normal;
+  color: #99aab5;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.regi {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #0098ff;
+  text-decoration: none;
+}
+.regi:hover {
+  text-decoration: underline;
+}
+
+.logo{
+  float: right;
+  margin-top: -330px;
+  height: 30px;
+  width: 270px;
+}
+.footer {
+  float: right;
+  margin-top:-100px;
+  margin-right: 40px;
+  text-align: center;
+}
+.footer h1{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.footer p{
+  color: #99aab5;
+  font-family: sans-serif;
+}
+
+.app{
+  text-decoration: none;
+  cursor: text;
+  color: #99aab5;
+  font-family: sans-serif;
+  font-weight: bold;
+}

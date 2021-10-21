@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+</head>
+<body>
+    <form method="post" action="forms.php">
+        <h1> Fill up the Details!! </h1>
+        <fieldset> 
+       <label> Name: </label> <input type="text" name="Username" id="Username"> <br>
+       <label> Age:</label> <input type="number" name="Number" id="number" min="18"> <br>
+       <label for="email"> Email:</label> <input type="email" name="email" id=" email" placeholder="abc@gmail.com"> <br>
+       <label> Password:</label><input type="password" name="password" id="Password" minlength="8"> <br>
+       <label> Phone:</label> <input type="text" name="phone"><br>
+       <label> Gender:</label> <input type="radio" name="radio"> Male 
+        <input type="radio" name="radio"> Female
+        <input type="radio" name="radio"> Other <br>
+        <label> Interest:</label> <input type="checkbox" name="checkbox"> Graphics
+                  <input type="checkbox" name="checkbox"> Web development 
+                  <input type="checkbox" name="checkbox"> Programming 
+                  <input type="checkbox" name="checkbox"> Game development
+                  <input type="checkbox" name="checkbox"> Freelancing <br>
+                  <label>DOB:</label> <input type="date" name="date" id="date"> <br>
+        <label> Course </label>
+        <select> 
+            <option value="course"></option>
+            <option value="BCA">BCA</option>
+            <option value="BIT">BIT</option>
+            <option value="BIM">BIM</option>
+            <option value="BSc.CSIT">BSc.CSIT</option>
+            <option value="BICT">BICT</option>
+            
+        </select><br>
+        <label> Upload your photo(PP size):</label> <input type="file" name="file"> <br>
+        <label> Upload your document:</label> <input type="file" name="file" multiple><br>
+        <!-- color: <input type=" color" name="color"> <br> -->
+        <label> What do you expect from us?</label> <br>
+        <textarea name="feedback" cols="20" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="CLEAR FORM">
+        <input type="submit" value="SUBMIT">
+        
+        
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
